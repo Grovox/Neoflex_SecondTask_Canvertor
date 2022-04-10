@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="660.0" style="-fx-background-color: #0c0830;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SecondTask.Controller">
+   <children>
+      <AnchorPane layoutY="85.0" prefHeight="236.0" prefWidth="660.0" style="-fx-background-color: Fafafa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="85.0">
+         <children>
+            <Text layoutX="70.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Двоичная" AnchorPane.bottomAnchor="175.0" AnchorPane.rightAnchor="499.1103515625">
+               <font>
+                  <Font name="Times New Roman" size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="271.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Десятичная" AnchorPane.bottomAnchor="175.0" AnchorPane.rightAnchor="280.2353515625">
+               <font>
+                  <Font name="Times New Roman" size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="432.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Шеснадцатеричная" AnchorPane.bottomAnchor="175.0" AnchorPane.rightAnchor="31.50390625">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="binary" layoutX="43.0" layoutY="68.0" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="41.0" AnchorPane.rightAnchor="470.0" AnchorPane.topAnchor="70.0" />
+            <TextField fx:id="decimal" layoutX="250.0" layoutY="68.0" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="251.0" AnchorPane.rightAnchor="260.0" AnchorPane.topAnchor="70.0" />
+            <TextField fx:id="hexadecimal" layoutX="457.0" layoutY="68.0" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="456.0" AnchorPane.rightAnchor="55.0" AnchorPane.topAnchor="70.0" />
+            <Button fx:id="calculate" layoutX="404.0" layoutY="159.0" mnemonicParsing="false" text="расчитать" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="154.0" AnchorPane.topAnchor="161.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="clear" layoutX="532.0" layoutY="159.0" mnemonicParsing="false" text="Очистить" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="530.0" AnchorPane.rightAnchor="29.0" AnchorPane.topAnchor="161.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="155.0" text="Конвертер" textFill="WHITE" AnchorPane.bottomAnchor="246.0" AnchorPane.leftAnchor="155.0" AnchorPane.rightAnchor="114.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="SWRomnt" size="56.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
